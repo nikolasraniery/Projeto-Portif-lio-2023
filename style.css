@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #22212c;
+  font-size: 23px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*////// Perfil //////*/
+
+#container {
+  width: 360px;
+  /* border: 1px solid rgb(255, 0, 0); */
+  border-radius: 2%;
+  margin: 20px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#profile img {
+  width: 128px;
+  height: 128px;
+  flex-shrink: 0;
+}
+
+#profile h4 {
+  color: #837e9f;
+  font-size: 23px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+#profile p {
+  color: #837e9f;
+  font-size: 13px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 10px;
+  padding-bottom: 19px;
+}
+
+/*////// Informações //////*/
+
+#container2 {
+  width: 360px;
+  /* border: 1px solid rgb(255, 0, 0); */
+  border-radius: 2%;
+  padding-top: 20px;
+}
+
+#info {
+  text-align: left;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+#info p {
+  color: #837e9f;
+  font-size: 17px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: large;
+  padding-top: 10px;
+  margin-left: 15px;
+  padding-bottom: 29px;
+}
+
+.bi-pin-map-fill {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  padding: 7px;
+  color: #837e9f;
+}
+
+.bi-briefcase {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  padding: 7px;
+  color: #837e9f;
+}
+
+.bi-github {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  padding: 7px;
+  color: #837e9f;
+}
+
+.bi-instagram {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  padding: 7px;
+  color: #837e9f;
+}
+
+.bi-envelope {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  padding: 7px;
+  color: #837e9f;
+}
+
+/*////// Technologies //////*/
+
+#container3 {
+  width: 360px;
+  /* border: 1px solid rgb(255, 0, 0); */
+  border-radius: 2%;
+  padding-top: 20px;
+}
+
+#technologies {
+  text-align: left;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
