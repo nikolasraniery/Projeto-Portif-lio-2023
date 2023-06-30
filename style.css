@@ -136,9 +136,40 @@ body {
 }
 
 #technologies {
-  text-align: left;
+  text-align: center;
   border-radius: 20px;
   background: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   padding: 20px;
+}
+
+#technologies button {
+  width: 86px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #cb92b1;
+  color: #000;
+  text-align: center;
+  font-size: 10px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 15px;
+}
+
+#technologies h4 {
+  display: flex;
+  width: 121px;
+  height: 26px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #837e9f;
+  font-size: 20px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 15px;
 }
