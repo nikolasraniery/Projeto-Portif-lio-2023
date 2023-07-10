@@ -336,13 +336,7 @@ body {
 }
 
 #projects {
-  text-align: left;
   border-radius: 20px;
   background: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-}
-
-#container .wrapper {
-  display: grid;
 }
