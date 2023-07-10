@@ -220,6 +220,17 @@ body {
   padding-bottom: 20px;
 }
 
+#exp h3 {
+  color: #837e9f;
+  font-size: 17px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 200;
+  line-height: large;
+  margin-left: 46px;
+  padding-bottom: 5px;
+}
+
 #exp .title {
   display: flex;
   width: 121px;
@@ -240,4 +251,98 @@ body {
   flex-shrink: 0;
   padding: 7px;
   color: #837e9f;
+}
+
+/*////// Educação //////*/
+
+#container5 {
+  width: 360px;
+  /* border: 1px solid rgb(255, 0, 0); */
+  border-radius: 2%;
+  padding-top: 20px;
+}
+
+#education {
+  text-align: left;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+#education p {
+  color: #837e9f;
+  font-size: 17px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: large;
+  padding-top: 10px;
+  margin-left: 15px;
+  padding-bottom: 9px;
+}
+
+#education h4 {
+  color: #837e9f;
+  font-size: 17px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: large;
+  margin-left: 46px;
+  padding-bottom: 20px;
+}
+
+#education h3 {
+  color: #837e9f;
+  font-size: 17px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 200;
+  line-height: large;
+  margin-left: 46px;
+  padding-bottom: 5px;
+}
+
+#education .title {
+  display: flex;
+  width: 121px;
+  height: 26px;
+  color: #837e9f;
+  font-size: 20px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 15px;
+  margin-left: 7px;
+}
+
+.bi-caret-right-fill {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  padding: 7px;
+  color: #837e9f;
+}
+
+/*////// My Projects //////*/
+
+#container6 {
+  width: 360px;
+  /* border: 1px solid rgb(255, 0, 0); */
+  border-radius: 2%;
+  padding-top: 20px;
+}
+
+#projects {
+  text-align: left;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+#container .wrapper {
+  display: grid;
 }
