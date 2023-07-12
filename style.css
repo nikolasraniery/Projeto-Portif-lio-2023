@@ -23,10 +23,10 @@ body {
 
 #container {
   width: 340px;
-  /* border: 1px solid rgb(255, 0, 0); */
+  border: 1px solid rgb(255, 0, 0);
   border-radius: 2%;
   margin-left: 24px;
-  margin-top: -108px;
+  margin-top: -300px;
   margin-bottom: 24px;
 }
 
@@ -331,14 +331,16 @@ body {
 /*////// My Projects //////*/
 
 #container6 {
-  width: 940;
-  /* border: 1px solid rgb(255, 0, 0); */
+  width: 940px;
+  border: 1px solid rgb(255, 0, 0);
   border-radius: 2%;
   margin-left: 380px;
   margin-top: 24px;
 }
 
 #projects {
+  display: flex;
+  align-items: baseline;
   text-align: left;
   border-radius: 20px;
   background: #302f3d;
@@ -351,11 +353,11 @@ body {
   font-family: Merriweather Sans;
   font-style: normal;
   font-weight: 700;
-  line-height: large;
+  line-height: normal;
 }
 
 #projects button {
-  margin-left: 800px;
+  margin-left: 700px;
   background: #302f3d;
   color: #837e9f;
   font-family: Merriweather Sans;
@@ -367,4 +369,13 @@ body {
 
 #projects button:hover {
   background: rgba(255, 255, 255, 0.067);
+}
+
+#repositories {
+  width: 461px;
+  height: 186px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
